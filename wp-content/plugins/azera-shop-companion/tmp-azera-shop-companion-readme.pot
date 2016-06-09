@@ -1,0 +1,10 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Azera Shop Companion"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Add Our team, Our Services and Testimonials sections to Azera Shop theme."
+msgstr ""
