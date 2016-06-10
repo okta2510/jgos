@@ -16,7 +16,7 @@
 <div itemscope itemtype="http://schema.org/SearchResultsPage" role="main" id="content" class="content-warp">
 	<div class="container">
 
-		<div id="primary" class="content-area col-xs-12 post-list">
+		<div id="primary" class="content-area col-md-8 post-list">
 			<main id="main" class="site-main" role="main">
 
 				<?php if ( have_posts() ) : ?>
@@ -49,6 +49,8 @@
 
 			</main><!-- #main -->
 		</div><!-- #primary -->
+
+		<?php get_sidebar(); ?>
 
 	</div>
 </div><!-- .content-wrap -->

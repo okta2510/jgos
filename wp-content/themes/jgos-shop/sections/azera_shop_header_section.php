@@ -47,9 +47,10 @@
 
 			<div class="row">
 				<div class="col-box col-xs-12 col-md-5 text-center">
-					<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/badge.png" alt=""></a>
+					<img src="<?php bloginfo('template_directory'); ?>/images/badge.png" alt="">
 				</div>
 				<div class="col-box col-xs-12 col-md-7 text-center">
+				<?php get_search_form(); ?>
 					<h3 class="hero-title">Dapatkan Deal dari 100+<br>
 E-commerce & Marketplace</h3>
 

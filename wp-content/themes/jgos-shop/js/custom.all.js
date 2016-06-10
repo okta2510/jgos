@@ -1,6 +1,6 @@
 
 jQuery(window).load(function () {
-    jQuery(".loading").fadeOut(800); // loading DIV fades out
+    jQuery(".loading").delay(100).fadeOut(400); // loading DIV fades out
 });
 jQuery(window).load(function(){ 
     fixFooterBottom();

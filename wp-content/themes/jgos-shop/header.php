@@ -18,9 +18,14 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" <?php body_class(); ?> dir="<?php if (is_rtl()) echo "rtl"; else echo "ltr"; ?>">
 
-<div class="loading">
-	
-</div>
+	<div class="loading">
+		<div class="loader">
+			<img src="<?php bloginfo('template_directory'); ?>/images/logo-loader.jpg" alt="">
+			<p>
+			<img src="<?php bloginfo('template_directory'); ?>/images/loader.gif" alt="">
+			</p>
+		</div>
+	</div>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'azera-shop' ); ?></a>
 	<!-- =========================
      PRE LOADER       

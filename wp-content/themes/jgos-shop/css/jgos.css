@@ -42,6 +42,12 @@ div.overlay-layer-wrap {
 .main-navigation li.current-menu-item {
   color: #DA3A3C !important; }
 
+.sticky-navigation .main-navigation li a:active,
+.sticky-navigation .main-navigation li a:hover,
+.sticky-navigation .main-navigation li a:focus {
+  color: #DA3A3C !important;
+  outline: none !important; }
+
 .tag-title {
   padding: 0 15px;
   margin-bottom: 40px;
@@ -256,6 +262,10 @@ footer#footer {
     line-height: 20px;
     margin-bottom: 0; }
 
+.promo-umum {
+  background: #fff;
+  margin: 0 -15px; }
+
 .row-space {
   padding: 50px 0;
   border-top: #EFEFEF solid 1px; }
@@ -266,7 +276,7 @@ footer#footer {
   width: 100%;
   top: 0;
   left: 0;
-  background: black;
+  background: #D43B3B;
   z-index: 9999;
   font-size: 20px;
   text-align: center;

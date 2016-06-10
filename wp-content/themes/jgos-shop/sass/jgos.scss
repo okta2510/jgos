@@ -73,6 +73,13 @@ background: #ffd4d4;
 	@extend .avenirBold;
 	color:$color-red!important;
 }
+.sticky-navigation .main-navigation li a:active,
+.sticky-navigation .main-navigation li a:hover,
+.sticky-navigation .main-navigation li a:focus,{
+		color:$color-red!important;
+		outline:none!important;
+
+}
 
 .tag-title{
 	padding: 0 15px;
@@ -333,6 +340,10 @@ margin-bottom: 10px;
 		}
 	}
 }
+.promo-umum{
+	background: #fff;
+	margin: 0 -15px;
+}
 .row-space{
 	padding: 50px 0;
 	border-top:#EFEFEF solid 1px;
@@ -343,7 +354,7 @@ margin-bottom: 10px;
     width: 100%;
     top:0;
     left: 0;
-    background: rgba(0, 0, 0, 1);
+    background: #D43B3B;
     z-index:9999;
     font-size: 20px;
     text-align: center;
